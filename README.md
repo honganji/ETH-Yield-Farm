@@ -52,8 +52,8 @@ TokenFarm Contract has been deployed to:  0x1698eA024B6e69D51161cBDef290a8b391C1
 
 ```javascript
 const daiTokenAddress = '<DAI_TOKEN_CONTRACT_ADDRESS>';
-  const dappTokenAddress = '<DAI_TOKEN_CONTRACT_ADDRESS>';
-  const tokenfarmAddress = '<DAI_TOKEN_CONTRACT_ADDRESS>';
+const dappTokenAddress = '<DAI_TOKEN_CONTRACT_ADDRESS>';
+const tokenfarmAddress = '<DAI_TOKEN_CONTRACT_ADDRESS>';
 ```
 
 5. replace the json files in `packages/client/src/ABIs/` with the content of the json files in `packages/contract/artifacts/contracts`.
